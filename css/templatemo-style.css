@@ -439,7 +439,7 @@
     right: 0px;
     bottom: 0px;
     content: "";
-    background: #ce3232;
+    background: #25c542;
     opacity: 0;
     transition: 0.5s;
   }
@@ -791,8 +791,8 @@
 
   .modal-dialog .modal-content {
     background: #028d25;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #434343, #028d25);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #434343, #028d25); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: -webkit-linear-gradient(to right, #434343, #028d25);  
+    background: linear-gradient(to right, #434343, #028d25);  */
     border: none;
     border-radius: 2px;
     text-align: center;
@@ -810,11 +810,11 @@
   }
 
   .modal-dialog .modal-body a {
-    color: #d9d9d9;
+    color: #ffffff;
   }
 
   .modal .close {
-    color: #999;
+    color: #ffffff;
     font-size: 40px;
     font-weight: 300;
     text-shadow: none;
@@ -840,7 +840,7 @@
 
   .modal-dialog .nav-tabs > li > a {
     border: 0;
-    color: #999999;
+    color: #ffffff;
     margin-right: 0;
   }
 
@@ -852,7 +852,7 @@
     color: #ffffff;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #ce3232;
+    border-bottom: 1px solid transparent;
   }
 
   .modal-dialog .tab-content {
@@ -861,7 +861,7 @@
 
   .modal-dialog form .form-control {
     border-radius: 5px;
-    border: 1px solid #595959;
+    border: 1px solid #ffffff;
     background: transparent;
     box-shadow: none;
     margin: 15px 0 15px 0;
@@ -874,8 +874,8 @@
   }
 
   .modal-dialog form input[type="submit"] {
-    background: #ce3232;
-    border-color: transparent;
+    background: #028d25;
+    border: 1px solid #ffffff;
     border-radius: 100px;
     color: #ffffff;
     margin-top: 20px;
