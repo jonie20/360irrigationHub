@@ -628,8 +628,8 @@
 
   #contact {
     background: #00F260;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0e1012, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0e1012, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #3d3d3d, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5b5b5b, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   }
 
   #contact .section-title h2 {
@@ -671,7 +671,8 @@
   }
 
   #contact input[type='submit'] {
-    background: #ce3232;
+    background: #434343;
+    border: 1px solid #ffffff;
     border-radius: 100px;
     color: #ffffff;
     font-weight: 500;
