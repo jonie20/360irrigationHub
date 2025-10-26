@@ -1,10 +1,4 @@
-/*
-
-Hydro Template 
-
-http://www.templatemo.com/tm-509-hydro
-
-*/  
+  
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600');
 
   body {
@@ -120,7 +114,7 @@ http://www.templatemo.com/tm-509-hydro
     transition: 0.5s;
   }
 
-  .section-btn:hover,
+  /* .section-btn:hover, */
   .section-btn:focus {
     background: #00F260;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #0e1012, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
@@ -496,7 +490,7 @@ http://www.templatemo.com/tm-509-hydro
   }
 
   #blog-header {
-    background: url('../images/blog-header-bg.jpg') no-repeat center center;
+    background: url('../images/home-bg1.jpg') no-repeat center center;
     background-size: cover;
     display: -webkit-box;
     display: -webkit-flex;
