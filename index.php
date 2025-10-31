@@ -413,78 +413,40 @@
                     </div>
 
                     <div class="col-md-8 col-sm-8">
+
                          <?php
-           $status = "OK"; //initial status
-$msg="";
-           if(ISSET($_POST['save'])){
-$name = mysqli_real_escape_string($con,$_POST['name']);
-$email = mysqli_real_escape_string($con,$_POST['email']);
-$phone = mysqli_real_escape_string($con,$_POST['phone']);
-$message = mysqli_real_escape_string($con,$_POST['message']);
+                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                         $name = htmlspecialchars($_POST['cf-name']);
+                         $email = htmlspecialchars($_POST['cf-email']);
+                         $phone = htmlspecialchars($_POST['cf-number']);
+                         $message = htmlspecialchars($_POST['cf-message']);
 
- if ( strlen($name) < 5 ){
-$msg=$msg."Name Must Be More Than 5 Char Length.<BR>";
-$status= "NOTOK";}
- if ( strlen($email) < 9 ){
-$msg=$msg."Email Must Be More Than 10 Char Length.<BR>";
-$status= "NOTOK";}
-if ( strlen($message) < 10 ){
-    $msg=$msg."Message Must Be More Than 10 Char Length.<BR>";
-    $status= "NOTOK";}
+                         $to = "chjonie20@gmail.com"; // change to your email
+                         $subject = "New Contact Form Message from $name";
+                         $body = "
+                              You have received a new message from your website contact form:
 
-if ( strlen($phone) < 8 ){
-  $msg=$msg."Phone Must Be More Than 8 Char Length.<BR>";
-  $status= "NOTOK";}
+                              Name: $name
+                              Email: $email
+                              Phone: $phone
+                              Message:
+                              $message
+                         ";
+                         $headers = "From: $email\r\n" .
+                                        "Reply-To: $email\r\n" .
+                                        "X-Mailer: PHP/" . phpversion();
 
-  if($status=="OK")
-  {
-
-$recipient="chjonie20@gmail.com";
-
-$formcontent="NAME:$name \n EMAIL: $email  \n PHONE: $phone  \n MESSAGE: $message";
-
-$subject = "New Enquiry from Vogue Website";
-$mailheader = "From: info@inoootechnologies.com \r\n";
-$result= mail($recipient, $subject, $formcontent);
-
-          if($result){
-                  $errormsg= "
-  <div class='alert alert-success alert-dismissible alert-outline fade show'>
-                   Enquiry Sent Successfully. We shall get back to you ASAP.
-                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
-                    </div>
-   "; //printing error if found in validation
-
-          }
-      }
-
-          elseif ($status!=="OK") {
-              $errormsg= "
-  <div class='alert alert-danger alert-dismissible alert-outline fade show'>
-                       ".$msg." <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button> </div>"; //printing error if found in validation
-
-
-      }
-      else{
-              $errormsg= "
-        <div class='alert alert-danger alert-dismissible alert-outline fade show'>
-                   Some Technical Glitch Is There. Please Try Again Later Or Ask Admin For Help.
-                   <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
-                   </div>"; //printing error if found in validation
-
-
-          }
-             }
-             ?>
-<?php
-if($_SERVER['REQUEST_METHOD'] == 'POST')
-						{
-						print $errormsg="";
-						}
-   ?>
+                         if (mail($to, $subject, $body, $headers)) {
+                              echo "<script>alert('Thank you! Your message has been sent successfully.'); window.history.back();</script>";
+                         } else {
+                              echo "<script>alert('Sorry, there was an error sending your message. Please try again later.'); window.history.back();</script>";
+                         }
+                         }
+                         ?>
+                         
 
                          <!-- CONTACT FORM HERE -->
-                         <form id="contact-form" role="form" action="#" method="post">
+                         <form id="contact-form" action="" enctype="multipart/form-data" role="form" method="post">
                               <div class="col-md-12 col-sm-12">
                                    <input type="text" class="form-control" placeholder="Full Name" id="cf-name"
                                         name="cf-name" required="">
@@ -506,7 +468,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                               </div>
 
                               <div class="col-md-4 col-sm-12">
-                                   <input type="submit" class="form-control" name="submit" value="Send Message">
+                                   <input type="submit" class="form-control" name="save" value="Send Message">
                               </div>
 
                          </form>
