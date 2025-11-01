@@ -251,7 +251,7 @@
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="irrigation-service.html"><img src="images/service-image.jpg" class="img-responsive"
+                                   <a href="irrigation-service.html"><img src="images/irrigation-image.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
@@ -282,7 +282,7 @@
                          <!-- BLOG THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="borehole-rehabilitation.html"><img src="images/service-image.jpg" class="img-responsive"
+                                   <a href="borehole-rehabilitation.html"><img src="images/borehole-dp.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
@@ -297,7 +297,7 @@
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="greenhouse-maintanance.html"><img src="images/service-image.jpg" class="img-responsive"
+                                   <a href="greenhouse-maintanance.html"><img src="images/greenhouse.png" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
@@ -541,7 +541,7 @@
                          <div class="footer-bottom">
                               <div class="col-md-6 col-sm-5">
                                    <div class="copyright-text">
-                                        <p>Copyright &copy; 2025 360IrrigationHub</p>
+                                        <p>Copyright &copy; 2025 360IrrigationHub.com</p>
                                    </div>
                               </div>
                               <div class="col-md-6 col-sm-7">
@@ -581,7 +581,7 @@
 
                                    <div class="col-md-12 col-sm-12">
                                         <div class="modal-title">
-                                             <h2>360 Irrigation Hub</h2>
+                                             <h2>360 Electrical & Irrigation Hub</h2>
                                         </div>
 
                                         <!-- NAV TABS -->
