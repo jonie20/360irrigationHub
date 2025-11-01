@@ -414,35 +414,7 @@
 
                     <div class="col-md-8 col-sm-8">
 
-                         <?php
-                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                         $name = htmlspecialchars($_POST['cf-name']);
-                         $email = htmlspecialchars($_POST['cf-email']);
-                         $phone = htmlspecialchars($_POST['cf-number']);
-                         $message = htmlspecialchars($_POST['cf-message']);
-
-                         $to = "chjonie20@gmail.com"; // change to your email
-                         $subject = "New Contact Form Message from $name";
-                         $body = "
-                              You have received a new message from your website contact form:
-
-                              Name: $name
-                              Email: $email
-                              Phone: $phone
-                              Message:
-                              $message
-                         ";
-                         $headers = "From: $email\r\n" .
-                                        "Reply-To: $email\r\n" .
-                                        "X-Mailer: PHP/" . phpversion();
-
-                         if (mail($to, $subject, $body, $headers)) {
-                              echo "<script>alert('Thank you! Your message has been sent successfully.'); window.history.back();</script>";
-                         } else {
-                              echo "<script>alert('Sorry, there was an error sending your message. Please try again later.'); window.history.back();</script>";
-                         }
-                         }
-                         ?>
+                         
                          
 
                          <!-- CONTACT FORM HERE -->
