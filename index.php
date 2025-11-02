@@ -151,7 +151,7 @@
                     <div class="col-md-6 col-sm-12">
                          <div class="home-info">
                               <h1>Professional Electrical and Irrigation Services</h1>
-                              <a href="#about" class="btn section-btn smoothScroll">Get Quote for FREE</a>
+                              <a href="#" data-toggle="modal" data-target="#modal-form" class="btn section-btn smoothScroll">Get Quote for FREE</a>
                               <span>
                                    CALL US +254725231090
                                    <small>For any inquiry</small>
@@ -414,40 +414,10 @@ We eliminate that risk.</p>
                     </div>
 
                     <div class="col-md-8 col-sm-8">
-
-                         <?php
-                         if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                         $name = htmlspecialchars($_POST['cf-name']);
-                         $email = htmlspecialchars($_POST['cf-email']);
-                         $phone = htmlspecialchars($_POST['cf-number']);
-                         $message = htmlspecialchars($_POST['cf-message']);
-
-                         $to = "chjonie20@gmail.com"; // change to your email
-                         $subject = "New Contact Form Message from $name";
-                         $body = "
-                              You have received a new message from your website contact form:
-
-                              Name: $name
-                              Email: $email
-                              Phone: $phone
-                              Message:
-                              $message
-                         ";
-                         $headers = "From: $email\r\n" .
-                                        "Reply-To: $email\r\n" .
-                                        "X-Mailer: PHP/" . phpversion();
-
-                         if (mail($to, $subject, $body, $headers)) {
-                              echo "<script>alert('Thank you! Your message has been sent successfully.'); window.history.back();</script>";
-                         } else {
-                              echo "<script>alert('Sorry, there was an error sending your message. Please try again later.'); window.history.back();</script>";
-                         }
-                         }
-                         ?>
                          
 
                          <!-- CONTACT FORM HERE -->
-                         <form id="contact-form" action="" enctype="multipart/form-data" role="form" method="post">
+                         <form id="contact-form" action="send-mail.php" enctype="multipart/form-data" role="form" method="post">
                               <div class="col-md-12 col-sm-12">
                                    <input type="text" class="form-control" placeholder="Full Name" id="cf-name"
                                         name="cf-name" required="">
@@ -532,8 +502,8 @@ We eliminate that risk.</p>
 
                     <div class="col-md-3 col-sm-4">
                          <div class="footer-thumb">
-                              <h2>Find us</h2>
-                              <p>123 Grand Rama IX, <br> Krung Thep Maha Nakhon 10400</p>
+                              <h2>Email us</h2>
+                              <p>info@360irrigationhub.co.ke</p>
                          </div>
                     </div>
 
@@ -593,14 +563,16 @@ We eliminate that risk.</p>
                                         <!-- TAB PANES -->
                                         <div class="tab-content">
                                              <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
-                                                  <form action="#" method="post">
-                                                       <input type="text" class="form-control" name="name"
+                                                  <form action="send-mail.php" method="post">
+                                                       <input type="text" class="form-control" name="cf-name"
                                                             placeholder="Name" required>
-                                                       <input type="email" class="form-control" name="email"
+                                                       <input type="email" class="form-control" name="cf-email"
                                                             placeholder="Email" required>
-                                                       <input type="text" class="form-control" name="content"
-                                                            placeholder="Message Us..." required>
-                                                       <input type="submit" class="form-control" name="submit"
+                                                       <input type="number" class="form-control" name="cf-number"
+                                                            placeholder="Email" required>
+                                                       <input type="text" class="form-control" name="cf-message"
+                                                            placeholder="Service you need..." required>
+                                                       <input type="submit" class="form-control" name="save"
                                                             value="Submit Button">
                                                   </form>
                                              </div>
