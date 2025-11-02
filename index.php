@@ -222,6 +222,7 @@ We eliminate that risk.</p>
                                         aria-valuemin="0" aria-valuemax="100" style="width: 94%;"></div>
                               </div>
 
+
                          </div>
                     </div>
 
@@ -313,13 +314,13 @@ We eliminate that risk.</p>
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="blog-detail"><img src="images/service-image1.jpg" class="img-responsive"
+                                   <a href="solar-electrical-services"><img src="images/service-image1.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
-                                   <h3><a href="blog-detail">Electrical Installation & Power Solutions.</a></h3>
+                                   <h3><a href="solar-electrical-services">Electrical Installation & Power Solutions.</a></h3>
                                    <p>Power your property efficiently. From high-capacity pump panels to automated outdoor lighting and smart home integration, we provide the flawless, future-proof electrical foundation your modern landscape requires.</p>
-                                   <a href="blog-detail" class="btn section-btn">Read more..</a>
+                                   <a href="solar-electrical-services" class="btn section-btn">Read more..</a>
                               </div>
                          </div>
                     </div>
