@@ -1,0 +1,21 @@
+Options +FollowSymlinks
+RewriteEngine On
+
+# 1. Block access to the .htaccess file itself for security
+<Files .htaccess>
+    Require all denied
+</Files>
+
+# 2. HIDE .php EXTENSION
+# This rule checks if the requested file without the extension exists.
+# If it exists (e.g., /index -> /index.php), silently rewrite the URL.
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [L]
+
+# 3. HIDE .html EXTENSION (If you have any HTML files)
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^\.]+)$ $1.html [L]
+
+# 4. HIDE .htm EXTENSION (If you have any HTM files)
+RewriteCond %{REQUEST_FILENAME}.htm -f
+RewriteRule ^([^\.]+)$ $1.htm [L]

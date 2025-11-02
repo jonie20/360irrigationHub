@@ -252,14 +252,14 @@ We eliminate that risk.</p>
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="irrigation-service.html"><img src="images/irrigation-image.jpg" class="img-responsive"
+                                   <a href="irrigation-service"><img src="images/irrigation-image.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
 
-                                   <h3><a href="irrigation-service.html">Irrigation System Design & Installation.</a></h3>
+                                   <h3><a href="irrigation-service">Irrigation System Design & Installation.</a></h3>
                                    <p>360 Irrigation Complete irrigation care. From smart system design and installation to seasonal maintenance and urgent repairs.</p>
-                                   <a href="irrigation-service.html" class="btn section-btn">Read more..</a>
+                                   <a href="irrigation-service" class="btn section-btn">Read more..</a>
                               </div>
                          </div>
                     </div>
@@ -268,13 +268,13 @@ We eliminate that risk.</p>
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="water-pump-supply-installation.html"><img src="images/service-image.jpg" class="img-responsive"
+                                   <a href="water-pump-supply-installation"><img src="images/service-image.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
-                                   <h3><a href="water-pump-supply-installation.html">Water Pump Supply & Installation.</a></h3>
+                                   <h3><a href="water-pump-supply-installation">Water Pump Supply & Installation.</a></h3>
                                    <p>Water Pump Services Tired of low pressure, high bills, or noisy operation? Your pump is the heart of your system. We don't just replace it—we install the right one.</p>
-                                   <a href="water-pump-supply-installation.html" class="btn section-btn">Read more..</a>
+                                   <a href="water-pump-supply-installation" class="btn section-btn">Read more..</a>
                               </div>
                          </div>
                     </div>
@@ -283,13 +283,13 @@ We eliminate that risk.</p>
                          <!-- BLOG THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="borehole-rehabilitation.html"><img src="images/borehole-dp.jpg" class="img-responsive"
+                                   <a href="borehole-rehabilitation"><img src="images/borehole-dp.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
-                                   <h3><a href="borehole-rehabilitation.html">Borehole Rehabilitation & Maintenance.</a></h3>
+                                   <h3><a href="borehole-rehabilitation">Borehole Rehabilitation & Maintenance.</a></h3>
                                    <p>Is your water yield dropping? Don't drill a new well! We use camera surveys and chemical/mechanical cleaning to restore flow, often recovering up to 90% of your original capacity—saving you massive replacement costs.</p>
-                                   <a href="borehole-rehabilitation.html" class="btn section-btn">Read more..</a>
+                                   <a href="borehole-rehabilitation" class="btn section-btn">Read more..</a>
                               </div>
                          </div>
                     </div>
@@ -298,13 +298,13 @@ We eliminate that risk.</p>
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="greenhouse-maintanance.html"><img src="images/greenhouse.png" class="img-responsive"
+                                   <a href="greenhouse-maintanance"><img src="images/greenhouse.png" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
-                                   <h3><a href="greenhouse-maintanance.html">Greenhouse Construction & Irrigation Setup.</a></h3>
+                                   <h3><a href="greenhouse-maintanance">Greenhouse Construction & Irrigation Setup.</a></h3>
                                    <p>We don't just build the shell. We install and service the integrated irrigation, ventilation, and lighting controls that guarantee a perfect growing climate. Custom design and complete yearly maintenance programs available.</p>
-                                   <a href="greenhouse-maintanance.html" class="btn section-btn">Read more..</a>
+                                   <a href="greenhouse-maintanance" class="btn section-btn">Read more..</a>
                               </div>
                          </div>
                     </div>
@@ -313,13 +313,13 @@ We eliminate that risk.</p>
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="blog-detail.html"><img src="images/service-image1.jpg" class="img-responsive"
+                                   <a href="blog-detail"><img src="images/service-image1.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
-                                   <h3><a href="blog-detail.html">Electrical Installation & Power Solutions.</a></h3>
+                                   <h3><a href="blog-detail">Electrical Installation & Power Solutions.</a></h3>
                                    <p>Power your property efficiently. From high-capacity pump panels to automated outdoor lighting and smart home integration, we provide the flawless, future-proof electrical foundation your modern landscape requires.</p>
-                                   <a href="blog-detail.html" class="btn section-btn">Read more..</a>
+                                   <a href="blog-detail" class="btn section-btn">Read more..</a>
                               </div>
                          </div>
                     </div>
@@ -417,7 +417,7 @@ We eliminate that risk.</p>
                          
 
                          <!-- CONTACT FORM HERE -->
-                         <form id="contact-form" action="send-mail.php" enctype="multipart/form-data" role="form" method="post">
+                         <form id="contact-form" action="send-mail" enctype="multipart/form-data" role="form" method="post">
                               <div class="col-md-12 col-sm-12">
                                    <input type="text" class="form-control" placeholder="Full Name" id="cf-name"
                                         name="cf-name" required="">
@@ -563,7 +563,7 @@ We eliminate that risk.</p>
                                         <!-- TAB PANES -->
                                         <div class="tab-content">
                                              <div role="tabpanel" class="tab-pane fade in active" id="sign_up">
-                                                  <form action="send-mail.php" method="post">
+                                                  <form action="send-mail" method="post">
                                                        <input type="text" class="form-control" name="cf-name"
                                                             placeholder="Name" required>
                                                        <input type="email" class="form-control" name="cf-email"
