@@ -181,7 +181,7 @@
 
                     <div class="col-md-6 col-sm-12">
                          <div class="home-info">
-                              <h1>Professional Electrical  Irrigation Services</h1>
+                              <h1>Professional Electrical & Irrigation Services</h1>
                               <a href="#" data-toggle="modal" data-target="#modal-form" class="btn section-btn smoothScroll">Get Quote for FREE</a>
                               <span>
                                    CALL US +254725231090
