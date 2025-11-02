@@ -9,16 +9,16 @@
 
      <title>360 Irrigation Hub | Smart Irrigation Systems in Kenya</title>
      <meta name="description"
-          content="Professional irrigation system design, installation, automation & equipment in Kenya. Drip, sprinkler & greenhouse experts. Request a quotation." />
+          content="Professional irrigation system design, Solar Energy, installation, automation & equipment in Kenya. Drip, sprinkler & greenhouse experts. Request a quotation." />
      <meta name="robots" content="index, follow" />
      <link rel="canonical" href="https://yourdomain.com/" />
 
 
      <!-- Open Graph / Social Sharing -->
      <meta property="og:type" content="website" />
-     <meta property="og:title" content="360 Irrigation Hub | Smart Water Solutions" />
+     <meta property="og:title" content="360 Irrigation Hub | Smart Energy and Water Solutions" />
      <meta property="og:description"
-          content="Kenya’s trusted experts in drip & sprinkler irrigation systems. Affordable, automated and custom agricultural solutions." />
+          content="Kenya’s trusted experts in drip & sprinkler irrigation, green energy and Electrical systems. Affordable, automated and custom agricultural solutions." />
      <meta property="og:url" content="https://yourdomain.com/" />
      <meta property="og:image" content="https://yourdomain.com/static/images/preview.jpg" />
 
@@ -30,67 +30,97 @@
      <link rel="stylesheet" href="css/magnific-popup.css" />
      <link rel="stylesheet" href="css/font-awesome.min.css" />
      <link rel="stylesheet" href="css/templatemo-style.css" />
-     <script type="application/ld+json">
-          {
-               "@context": "https://schema.org",
-               "@type": "LocalBusiness",
-               "name": "360 Irrigation Hub",
-               "url": "https://yourdomain.com/",
-               "description": "Professional irrigation system design, installation, automation & equipment in Kenya.",
-               "image": "https://yourdomain.com/static/images/logo.png",
-               "telephone": "+254729183038",
-               "email": "info@dem.com",
-               "address": {
-               "@type": "PostalAddress",
-               "addressLocality": "Nairobi",
-               "addressCountry": "KE"
-               },
-               "openingHours": "Mo-Sa 08:00-18:00",
-               "serviceType": ["Drip Irrigation", "Sprinkler Systems", "Greenhouse Automation"]
-               },
-               "makesOffer": [
-               {
-               "@type": "Service",
-               "name": "Drip Irrigation Installation",
-               "description": "Design and installation of efficient drip irrigation systems for farms and greenhouse projects."
-               },
-               {
-               "@type": "Service",
-               "name": "Sprinkler Irrigation Setup",
-               "description": "Automated sprinkler irrigation solutions for lawns and large-scale farms."
-               },
-               {
-               "@type": "Service",
-               "name": "Greenhouse Automation",
-               "description": "Smart greenhouse setup with sensors, automation and climate control."
-               }
-               ]
-}</script>
 
-<script type="application/ld+json">
+     <script type="application/ld+json">
      {
-          "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          "name": "360 Irrigation Hub",
-          "url": "https://yourdomain.com/",
-          "description": "Professional irrigation system design, installation, automation & equipment in Kenya.",
-          "image": "https://yourdomain.com/static/images/logo.png",
-          "telephone": "+254729183038",
-          "email": "info@dem.com",
-          "openingHours": "Mo-Sa 08:00-18:00",
-          "serviceType": ["Drip Irrigation", "Sprinkler Systems", "Greenhouse Automation"]
-          "address": {
-               "@type": "PostalAddress",
-               "addressLocality": "Nairobi",
-               "addressCountry": "KE"
-               },
-          "potentialAction": {
-               "@type": "SearchAction",
-               "target": "https://yourdomain.com/search?query={search_term_string}",
-               "query-input": "required name=search_term_string"
-          }
+     "@context": "https://schema.org",
+     "@type": "HomeAndConstructionBusiness",
+     "name": "360IrrigationHub",
+     "description": "Expert Solar energy, electrical, irrigation, borehole rehabilitation, water pump, and greenhouse construction services in Kenya.",
+     "url": "https://www.360irrigationhub.co.ke",
+     "logo": "https://www.360irrigationhub.co.ke/images/removebg-preview.png",
+     "telephone": "+254700000000",
+     "email": "info@360irrigationhub.co.ke",
+     "address": {
+     "@type": "PostalAddress",
+     "streetAddress": "Moi Avenue, Nairobi",
+     "addressLocality": "Nairobi",
+     "postalCode": "3492",
+     "addressCountry": "KE"
+     },
+     "areaServed": {
+     "@type": "Place",
+     "name": "Nairobi"
+     },
+     "openingHoursSpecification": [
+     {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+     },
+     {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "09:00",
+          "closes": "14:00"
      }
-</script>
+     ],
+     "hasOfferCatalog": {
+     "@type": "OfferCatalog",
+     "name": "Services",
+     "itemListElement": [
+          {
+          "@type": "Offer",
+          "itemOffered": {
+               "@type": "Service",
+               "name": "Electrical Installation Services"
+          }
+          },
+          {
+          "@type": "Offer",
+          "itemOffered": {
+               "@type": "Service",
+               "name": "Irrigation Services (Installation & Maintenance)"
+          }
+          },
+          {
+          "@type": "Offer",
+          "itemOffered": {
+               "@type": "Service",
+               "name": "Water Pump Supply & Installation"
+          }
+          },
+          {
+          "@type": "Offer",
+          "itemOffered": {
+               "@type": "Service",
+               "name": "Borehole Rehabilitation"
+          }
+          },
+          {
+          "@type": "Offer",
+          "itemOffered": {
+               "@type": "Service",
+               "name": "Greenhouse Construction & Maintenance"
+          }
+          }
+     ]
+     },
+     "sameAs": [
+     "https://www.facebook.com/your-facebook-page",
+     "https://www.linkedin.com/company/your-linkedin-page",
+     "https://www.instagram.com/your-instagram-page",
+     "https://www.tiktok.com/your-tiktok-page"
+     ]
+     }
+     </script>
 </head>
 
 <body>
@@ -133,6 +163,7 @@
                          <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                         <li><a href="https://wa.me/254725231090?text=I%20am%20interested%20in%20360IrrigationHub%20services." target="_blank" class="fa fa-whatsapp"></a></li>
                          <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Contact
                                    Us</a></li>
                     </ul>
@@ -150,7 +181,7 @@
 
                     <div class="col-md-6 col-sm-12">
                          <div class="home-info">
-                              <h1>Professional Electrical and Irrigation Services</h1>
+                              <h1>Professional Electrical  Irrigation Services</h1>
                               <a href="#" data-toggle="modal" data-target="#modal-form" class="btn section-btn smoothScroll">Get Quote for FREE</a>
                               <span>
                                    CALL US +254725231090
@@ -162,8 +193,9 @@
                     <div class="col-md-6 col-sm-12">
                          <div class="home-video">
                               <div class="embed-responsive embed-responsive-16by9">
-                                   <iframe src="https://www.youtube.com/embed/HEyFQo9RUWQ?si=Gobl9QqMtyS_zq5-"
-                                        frameborder="0" allowfullscreen></iframe>
+                                   <!-- <iframe src="https://www.youtube.com/embed/HEyFQo9RUWQ?si=Gobl9QqMtyS_zq5-"
+                                        frameborder="0" allowfullscreen></iframe> -->
+                                   <img src="images/main-image1.jpg" alt="irrigation image">
                               </div>
                          </div>
                     </div>
@@ -193,6 +225,14 @@ We eliminate that risk.</p>
 
                     <div class="col-md-3 col-sm-6">
                          <div class="about-info skill-thumb">
+
+                              <strong>Electrical and Solar Energy</strong>
+                              <span class="pull-right">96%</span>
+                              <div class="progress">
+                                   <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="96"
+                                        aria-valuemin="0" aria-valuemax="100" style="width: 96%;"></div>
+                              </div>
+
 
                               <strong>Borehole Rehabilitation</strong>
                               <span class="pull-right">97%</span>
@@ -284,7 +324,7 @@ We eliminate that risk.</p>
                          <!-- BLOG THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="borehole-rehabilitation"><img src="images/borehole-dp.jpg" class="img-responsive"
+                                   <a href="borehole-rehabilitation"><img src="images/borehole-image.jpg" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
@@ -299,7 +339,7 @@ We eliminate that risk.</p>
                          <!-- SERVICE THUMB -->
                          <div class="media blog-thumb">
                               <div class="media-object media-left">
-                                   <a href="greenhouse-maintanance"><img src="images/greenhouse.png" class="img-responsive"
+                                   <a href="greenhouse-maintanance"><img src="images/greenhouse1.png" class="img-responsive"
                                              alt=""></a>
                               </div>
                               <div class="media-body blog-info">
@@ -482,7 +522,7 @@ We eliminate that risk.</p>
                          <div class="footer-thumb">
                               <h2>Company</h2>
                               <ul class="footer-link">
-                                   <li><a href="#">About Us</a></li>
+                                   <li><a href="#about">About Us</a></li>
                                    <li><a href="#">Join our team</a></li>
                                    <li><a href="#">Read Blog</a></li>
                                    <li><a href="#">Press</a></li>
@@ -494,17 +534,19 @@ We eliminate that risk.</p>
                          <div class="footer-thumb">
                               <h2>Services</h2>
                               <ul class="footer-link">
-                                   <li><a href="#">Irrigation</a></li>
-                                   <li><a href="#">Borehole Rehabilitation</a></li>
-                                   <li><a href="#">Greenhouse Damliners</a></li>
+                                   <li><a href="irrigation-service">Irrigation</a></li>
+                                   <li><a href="borehole-rehabilitation">Borehole Rehabilitation</a></li>
+                                   <li><a href="greenhouse-maintanance">Greenhouse Damliners</a></li>
+                                   <li><a href="water-pump-supply-installation">Water Pumps</a></li>
+                                   <li><a href="solar-electrical-services">Electrical & Solar</a></li>
                               </ul>
                          </div>
                     </div>
 
                     <div class="col-md-3 col-sm-4">
                          <div class="footer-thumb">
-                              <h2>Email us</h2>
-                              <p>info@360irrigationhub.co.ke</p>
+                              <h2>Reach us</h2>
+                              <p>info@360irrigationhub.co.ke <br> +254 725 231 090</p>
                          </div>
                     </div>
 
@@ -524,6 +566,7 @@ We eliminate that risk.</p>
                                                   attr="facebook icon"></a></li>
                                         <li><a href="#" class="fa fa-twitter"></a></li>
                                         <li><a href="#" class="fa fa-instagram"></a></li>
+                                        <li><a href="" class="fa fa-whatsapp"></a></li>
                                    </ul>
                               </div>
                          </div>
