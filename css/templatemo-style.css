@@ -335,6 +335,13 @@
     color: #ffffff;
   }
 
+  .home-video img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
   .home-info .section-btn {
     background: transparent;
     border: 2px solid #f9f9f9;

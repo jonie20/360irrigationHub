@@ -23,7 +23,7 @@
      <meta property="og:image" content="https://yourdomain.com/static/images/preview.jpg" />
 
 
-     <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+     <link rel="icon" href="images/removebg.png" type="image/x-icon" />
 
 
      <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -181,7 +181,7 @@
 
                     <div class="col-md-6 col-sm-12">
                          <div class="home-info">
-                              <h1>Professional Electrical <br> & Irrigation Services</h1>
+                              <h1>Professional Electrical & Irrigation Services</h1>
                               <a href="#" data-toggle="modal" data-target="#modal-form" class="btn section-btn smoothScroll">Get Quote for FREE</a>
                               <span>
                                    CALL US +254725231090
@@ -195,7 +195,7 @@
                               <div class="embed-responsive embed-responsive-16by9">
                                    <!-- <iframe src="https://www.youtube.com/embed/HEyFQo9RUWQ?si=Gobl9QqMtyS_zq5-"
                                         frameborder="0" allowfullscreen></iframe> -->
-                                   <img src="images/main-image1.jpg" alt="irrigation image">
+                                   <img src="images/main-image1.jpg" alt="irrigation image" class="img-fluid">
                               </div>
                          </div>
                     </div>
