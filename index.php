@@ -2,34 +2,30 @@
 <html lang="en">
 
 <head>
-     <meta charset="UTF-8" />
-     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <title>360 Irrigation Hub | Smart Irrigation Systems & Solar Energy Solutions in Kenya</title>
+    <meta name="description"
+        content="Expert smart irrigation system design, solar energy installation, automation & equipment services in Kenya. Specialists in drip, sprinkler, and greenhouse irrigation. Request a free quote today." />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.360irrigationhub.co.ke/" />
 
-     <title>360 Irrigation Hub | Smart Irrigation Systems in Kenya</title>
-     <meta name="description"
-          content="Professional irrigation system design, Solar Energy, installation, automation & equipment in Kenya. Drip, sprinkler & greenhouse experts. Request a quotation." />
-     <meta name="robots" content="index, follow" />
-     <link rel="canonical" href="https://yourdomain.com/" />
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="360 Irrigation Hub | Smart Irrigation and Solar Energy Solutions in Kenya" />
+    <meta property="og:description"
+        content="Trusted experts in drip & sprinkler irrigation, solar energy systems, greenhouse construction, and electrical installations in Kenya. Customized agricultural solutions." />
+    <meta property="og:url" content="https://www.360irrigationhub.co.ke/" />
+    <meta property="og:image" content="https://www.360irrigationhub.co.ke/static/images/preview.jpg" />
 
+    <link rel="icon" href="images/removebg.png" type="image/x-icon" />
 
-     <!-- Open Graph / Social Sharing -->
-     <meta property="og:type" content="website" />
-     <meta property="og:title" content="360 Irrigation Hub | Smart Energy and Water Solutions" />
-     <meta property="og:description"
-          content="Kenya’s trusted experts in drip & sprinkler irrigation, green energy and Electrical systems. Affordable, automated and custom agricultural solutions." />
-     <meta property="og:url" content="https://yourdomain.com/" />
-     <meta property="og:image" content="https://yourdomain.com/static/images/preview.jpg" />
-
-
-     <link rel="icon" href="images/removebg.png" type="image/x-icon" />
-
-
-     <link rel="stylesheet" href="css/bootstrap.min.css" />
-     <link rel="stylesheet" href="css/magnific-popup.css" />
-     <link rel="stylesheet" href="css/font-awesome.min.css" />
-     <link rel="stylesheet" href="css/templatemo-style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
 
      <script type="application/ld+json">
      {
@@ -134,43 +130,53 @@
 
 
      <!-- MENU -->
-     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
-          <div class="container">
+     <header role="banner">
+    <section class="navbar custom-navbar navbar-fixed-top" role="navigation" aria-label="Primary navigation">
+        <div class="container">
 
-               <div class="navbar-header">
-                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                         <span class="icon icon-bar"></span>
-                    </button>
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"
+                    aria-controls="navbarNav" aria-label="Toggle navigation">
+                    <span class="icon icon-bar" aria-hidden="true"></span>
+                    <span class="icon icon-bar" aria-hidden="true"></span>
+                    <span class="icon icon-bar" aria-hidden="true"></span>
+                </button>
 
-                    <!-- lOGO TEXT HERE -->
-                    <!-- <a href="index.html" class="navb ar-brand">360 Irrrigation Hub</a> -->
-                    <img src="images/removebg-preview.png" class="img-responsive" alt="">
-               </div>
+                <!-- LOGO TEXT HERE -->
+                    <img src="images/removebg-preview.png" class="img-responsive" alt="360 Irrigation Hub Logo" />
+                
+            </div>
 
-               <!-- MENU LINKS -->
-               <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-nav-first">
-                         <li><a href="#home" class="smoothScroll">Home</a></li>
-                         <li><a href="#about" class="smoothScroll">Who we Are</a></li>
-                         <li><a href="#work" class="smoothScroll">Products</a></li>
-                         <li><a href="#blog" class="smoothScroll">Our Services</a></li>
-                         <li><a href="#contact" class="smoothScroll">Contact</a></li>
-                    </ul>
+            <!-- MENU LINKS -->
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-nav-first" role="menubar">
+                    <li role="presentation"><a href="#home" class="smoothScroll" role="menuitem">Home</a></li>
+                    <li role="presentation"><a href="#about" class="smoothScroll" role="menuitem">Who we Are</a></li>
+                    <li role="presentation"><a href="#work" class="smoothScroll" role="menuitem">Products</a></li>
+                    <li role="presentation"><a href="#blog" class="smoothScroll" role="menuitem">Our Services</a></li>
+                    <li role="presentation"><a href="#contact" class="smoothScroll" role="menuitem">Contact</a></li>
+                </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                         <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                         <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                         <li><a href="https://wa.me/254725231090?text=I%20am%20interested%20in%20360IrrigationHub%20services." target="_blank" class="fa fa-whatsapp"></a></li>
-                         <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form">Contact
-                                   Us</a></li>
-                    </ul>
-               </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="https://www.facebook.com/your-facebook-page" aria-label="Facebook"><i
+                                class="fa fa-facebook-square"></i></a></li>
+                    <li><a href="#" aria-label="Twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/your-instagram-page" aria-label="Instagram"><i
+                                class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://wa.me/254725231090?text=I%20am%20interested%20in%20360IrrigationHub%20services."
+                            target="_blank" aria-label="WhatsApp" class="fa fa-whatsapp" rel="noopener"></a></li>
+                    <li class="section-btn"><a href="#" data-toggle="modal" data-target="#modal-form" aria-label="Contact Us">
+                            Contact Us</a></li>
+                </ul>
+            </div>
 
-          </div>
-     </section>
+        </div>
+    </section>
+
+
+     </header>
+
+     
 
 
      <!-- HOME -->
@@ -182,6 +188,7 @@
                     <div class="col-md-6 col-sm-12">
                          <div class="home-info">
                               <h1>Professional Electrical & Irrigation Services</h1>
+                              <p>Providing smart irrigation system design, solar energy solutions, and professional installation services for Kenyan farms and landscapes.</p>
                               <a href="#" data-toggle="modal" data-target="#modal-form" class="btn section-btn smoothScroll">Get Quote for FREE</a>
                               <span>
                                    CALL US +254725231090
